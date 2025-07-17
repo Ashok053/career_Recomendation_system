@@ -1,0 +1,69 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyd
+*.pyo
+*.log
+*.DS_Store
+*.env
+.env
+.venv
+venv/
+ENV/
+env/
+pip-log.txt
+
+# ========== FastAPI/Uvicorn ==========
+*.sqlite3
+instance/
+*.db
+
+# ========== Jupyter Notebooks ==========
+.ipynb_checkpoints/
+*.ipynb
+
+# ========== OS/System Files ==========
+*.swp
+*.bak
+*.tmp
+Thumbs.db
+.DS_Store
+
+# ========== IDEs/Editors ==========
+.vscode/
+.idea/
+*.code-workspace
+
+# ========== Datasets/Inputs ==========
+datasets/
+/uploads/
+/media/
+/output/
+/temp/
+/tmp/
+/logs/
+*.json
+*.tsv
+*.xlsx
+*.xls
+
+# NOTE: .csv and .pkl NOT ignored intentionally
+
+# ========== Machine Learning Models ==========
+saved_models/
+checkpoints/
+*.h5
+*.onnx
+*.pb
+
+# ========== Docker ==========
+*.dockerfile
+.dockerignore
+*.tar
+*.img
+*.img.tar
+
+
